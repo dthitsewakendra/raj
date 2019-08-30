@@ -1,0 +1,255 @@
+{
+  "settings": {
+    "name": "Site-08-29_1037-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.8",
+    "siteFonts": [],
+    "uniqCompNum": 11,
+    "versionPublish": "4.10.8",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/raj-128x126.png",
+    "noImageResize": "",
+    "сanonical-url": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">DTH IT SEWA KENDRA&nbsp;</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            A SMART CLASS SERVICE</h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-1\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                LEARN MORE\n            </a></div>\n    </div>\n\n</section>",
+          "_cid": "rAvGhmS5fu",
+          "_anchor": "header1-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px"
+            },
+            "amp-img": {
+              "width": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "max-width": "~'@{imageWidth}%'"
+            },
+            "DIV": {
+              "text-align": "left"
+            },
+            "H3": {
+              "text-align": "right"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"100\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">ABOUT</h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\"><div>&nbsp;DTH IT SOLUTIONS has been at the forefront in providing integrated education services involving innovation and education technology for schools since 2017. The success story of DTH IT SOLUTIONS has not begun easily. The foundation had lead the young and dynamic Director Mr. SHER SINGH who made this company to be in its place today. With his vast experience with other education technology companies for almost a decade, he had analysed the need and demand for a quality service provider who could make schools understand how they could make their students’ shine.\n</div><div>He started servicing from the scratch ranging from providing consultancy, building teaching capacity, deploying information technology systems in schools to offering various online and blended-learning education programs and so on. He has implemented and brought the unique proposition model of ability in bridging the latest relevant education technology to schools and make education technology affordable.\n</div><div>He help schools to achieve effective and sustainable usage of education technology. In line with that, through his company, he provides a platform for experience and knowledge sharing with its networking partners.\n</div><div>\n</div><div>“One size does not fit all when it comes to education” – is what he believes and strives hard to bring the company to stand as one of the leading in India\n</div><div>You may contact Mr. SHER SINGH at dthitsewakendra@gmail.com or may be reached at +91 7426901112</div><div><br></div></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">START BUILDING</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://mobirise.co\">LEARN MORE</a>\n\n                </div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/raja-474x355.jpg\" alt=\"Mobirise\" width=\"611.5267605633803\" height=\"458\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <a href=\"mailto:dthitsewakendra@gmail.com\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/raja-474x355.jpg\" alt=\"Mobirise\" title></a>\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rAvHmsWLu8",
+          "_anchor": "header2-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".section-title": {
+              "z-index": "2",
+              "background-color": "@tabsColor1",
+              "padding": "1.3rem 2rem",
+              "border": "1px solid #dfdfdf"
+            },
+            "p": {
+              "z-index": "1",
+              "background-color": "@tabsColor2",
+              "box-shadow": "inset 1px 36px 20px -30px rgba(121, 121, 121, 0.13)",
+              "padding": "1.5rem"
+            },
+            ".accordion when (@showTitle), (@showSubtitle)": {
+              "padding-top": "2rem"
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"accordion\" group=\"Toggles & Tabs\" plugins=\"amp-main,amp-accordion\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        \n        <select title=\"Tabs\" name=\"tabsAmount\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"color\" title=\"Tabs Color 1\" name=\"tabsColor1\" value=\"#efefef\">\n        <input type=\"color\" title=\"Tabs Color 2\" name=\"tabsColor2\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-container\">\n        <h3 class=\"mbr-fonts-style mbr-section-title mbr-light align-center\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">OUR SERVICES</h3>\n        <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-light align-center\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n        <amp-accordion class=\"accordion\" disable-session-states>\n          <section expanded>\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">SMART CLASS SERVICES</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">\tProviding Smart class full comprehensive AMC which also includes replacement of bulb of the projector, touch screen interactive board as well battery when it needs to be replaced. \n<br>\tProviding full Smart class comprehensive AMC to any type of Smart class.\n<br>\tProviding full Smart class comprehensive AMC to any condition and aged of hardware.\n<br>\tProviding full computer lab hardware and Smart class Hardware (white board, green board, smart board, projector, speaker, keyboard, mouse, system, visualizer, styler pen, ups.\n<br>\tProviding full computer lab  comprehensive AMC to any condition and aged of hardware&nbsp;<br></p>\n          </section>\n          <section>\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">OTHER</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">We are catering comprehensive and non-comprehensive AMC to all brands such as Next education, Extramarks, Educomp, HCL, Tata class edge, Edurite and others. We value our each and every client way of functioning, and their vision. We aspire to try fit in the client working culture, and thus we have been happily chosen over our competitors. Our core strengths like pliability, commitment, ownership and responsibility gives us extra edge in such competitive market.Not to mention, we have been also appreciated in contributing to the institution social events as part of our corporate social responsibility.&nbsp;</p>\n          </section>\n          <section mbr-if=\"tabsAmount > 2\">\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Why Mobirise?</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">\n              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n            </p>\n          </section>\n          <section mbr-if=\"tabsAmount > 3\">\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Why Mobirise?</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">\n              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n            </p>\n          </section>\n          <section mbr-if=\"tabsAmount > 4\">\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Why Mobirise?</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">\n              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n            </p>\n          </section>\n          <section mbr-if=\"tabsAmount > 5\">\n            <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Why Mobirise?</h4>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">\n              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n            </p>\n          </section>\n        </amp-accordion>\n    </div>\n</section>",
+          "_cid": "rACqT9HhPA",
+          "_anchor": "toggle1-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main-row when (@showSubtitle), (@showTitle)": {
+              "padding-top": "2rem"
+            },
+            "& when not (@listItems = 0)": {
+              "@media (min-width: 768px)": {
+                ".list-item": {
+                  "padding-bottom": "2rem",
+                  "&:last-child": {
+                    "padding-bottom": "0"
+                  },
+                  "&:nth-last-child(2) when (@listItems = 2), (@listItems = 4), (@listItems = 6), (@listItems = 8)": {
+                    "padding-bottom": "0"
+                  }
+                }
+              },
+              "@media (max-width: 767px)": {
+                ".list-item": {
+                  "padding-bottom": "1.5rem",
+                  "&:last-child": {
+                    "padding-bottom": "0"
+                  }
+                }
+              },
+              ".list-item": {
+                "display": "flex",
+                "p": {
+                  "margin": "0",
+                  "padding": "0"
+                }
+              }
+            },
+            "& when not (@listItems = 0), (@showSocial)": {
+              ".contact-wrap": {
+                "margin": "auto"
+              },
+              "@media (min-width: 992px)": {
+                ".main-row when (@reverseContent)": {
+                  "flex-direction": "row-reverse",
+                  ".map-content": {
+                    "padding-left": "2rem"
+                  }
+                },
+                ".map-content when not (@reverseContent)": {
+                  "padding-right": "2rem"
+                }
+              },
+              ".contact-content": {
+                "display": "flex",
+                "@media (max-width: 991px)": {
+                  "padding-top": "2rem"
+                }
+              },
+              ".iconfont-wrapper when (@showIcons), (@showSocial)": {
+                "width": "~\"@{iconsSize}rem\"",
+                "height": "~\"@{iconsSize}rem\"",
+                "margin-right": "1rem",
+                "& when ((@iconsSize * 16) > 30)": {
+                  "@media (max-width: 767px)": {
+                    "height": "30px",
+                    "width": "30px"
+                  }
+                },
+                "span": {
+                  "font-size": "~\"@{iconsSize}rem\"",
+                  "width": "~\"@{iconsSize}rem\"",
+                  "color": "@iconsColor",
+                  "& when ((@iconsSize * 16) > 30)": {
+                    "@media (max-width: 767px)": {
+                      "font-size": "30px",
+                      "width": "30px"
+                    }
+                  }
+                }
+              },
+              ".social when not (@listItems = 0) and (@showSocial)": {
+                "padding-top": "2rem"
+              },
+              ".social when (@showSocial)": {
+                "margin-left": "-1rem"
+              }
+            }
+          },
+          "_name": "contacts3",
+          "_customHTML": "<section class=\"contacts3 map\" group=\"Contacts\" plugins=\"amp-main, amp-iframe\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\" checked>\n        <input type=\"range\" inline title=\"Social Count\" name=\"iconsCount\" min=\"1\" max=\"9\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"4\" step=\"0.1\" value=\"2.1\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#4ea2e3\" condition=\"showIcons\">\n        <input type=\"range\" inline name=\"listItems\" title=\"List Items\" min=\"0\" max=\"8\" value=\"4\">\n        <input type=\"checkbox\" title=\"Map on Left/Right\" name=\"reverseContent\" condition=\"listItems > 0 || showSocial\" checked=\"checked\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> \n        </fieldset>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.3061686976978!2d75.69484125805728!3d26.947501595778164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4cdc0cf2aaef%3A0xbae331bf63b64d62!2sUnnamed%20Road%2C%20Jaipur%2C%20Rajasthan%20302012!5e0!3m2!1sen!2sin!4v1567134492409!5m2!1sen!2sin&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot;></iframe>\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\">\n            Contact Us\n        </h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n            Find Us Or Contact Us\n        </h3>\n\n        <div class=\"mbr-row mbr-justify-content-center main-row\">\n            <div class=\"mbr-col-md-12 mbr-col-sm-12 map-content\" mbr-class=\"{'mbr-col-lg-6':listItems > 0 || showSocial,'mbr-col-lg-12':listItems == 0 &amp;&amp; !showSocial}\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"map-placeholder mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </div>\n            </div>\n            \n            \n            <div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 contact-content\" mbr-if=\"listItems > 0 || showSocial\">\n                <div class=\"contact-wrap\">\n                <div class=\"mbr-row\" mbr-list mbr-list-grow=\"listItems\">\n                    <div class=\"list-item mbr-col-lg-6 mbr-col-md-6 mbr-col-sm-12\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n                        </div>\n                        <p class=\"mbr-fonts-style list-item-text\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">+91 7426901112</p>\n                    </div>\n                    \n                    \n                <div class=\"list-item mbr-col-lg-6 mbr-col-md-6 mbr-col-sm-12\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                        </div>\n                        <p class=\"mbr-fonts-style list-item-text\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">dthitsewakendra@gmail.com</p>\n                    </div><div class=\"list-item mbr-col-lg-6 mbr-col-md-6 mbr-col-sm-12\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbrib-pin\"></span>\n                        </div>\n                        <p class=\"mbr-fonts-style list-item-text\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">38, kalyan vatika<br>govindpura jhotwara jaipur</p>\n                    </div><div class=\"list-item mbr-col-lg-6 mbr-col-md-6 mbr-col-sm-12\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbrib-pin\"></span>\n                        </div>\n                        <p class=\"mbr-fonts-style list-item-text\" mbr-theme-style=\"display-7\" data-app-selector=\".list-item-text\">JAIPUR</p>\n                    </div></div>\n                <div class=\"icons-list social align-center\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                    <span class=\"iconfont-wrapper\">\n                        <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n                    </span>\n                </a>\n            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                    <span class=\"iconfont-wrapper\">\n                        <span mbr-icon class=\"amp-iconfont fa-twitter-square fa\"></span>\n                    </span>\n                </a><a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                    <span class=\"iconfont-wrapper\">\n                        <span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span>\n                    </span>\n                </a></div>\n            </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rAvKNO6YFh",
+          "_anchor": "contacts3-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
